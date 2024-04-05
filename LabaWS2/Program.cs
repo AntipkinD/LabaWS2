@@ -19,19 +19,19 @@
     }
     static string Time(uint time, string txt)
     {
-        if (time >= (uint)DayTime.Ночь & time < 7)
+        if (time >= (uint)DayTime.Ночь & time < (uint)DayTime.Утро)
         {
             return txt + $", {DayTime.Ночь.ToString().ToLower()}";
         }
-        else if (time >= (uint)DayTime.Утро & time < 13)
+        else if (time >= (uint)DayTime.Утро & time < (uint)DayTime.День)
         {
             return txt + $", {DayTime.Утро.ToString().ToLower()}";
         }
-        else if (time >= (uint)DayTime.День & time < 18)
+        else if (time >= (uint)DayTime.День & time < (uint)DayTime.Вечер)
         {
             return txt + $", {DayTime.День.ToString().ToLower()}";
         }
-        else if (time >= (uint)DayTime.Вечер & time < 24)
+        else if (time >= (uint)DayTime.Вечер & time < (uint)DayTime.Ночь)
         {
             return txt + $", {DayTime.Вечер.ToString().ToLower()}";
         }
