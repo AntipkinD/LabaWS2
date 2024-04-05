@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabaWS2", "LabaWS2\LabaWS2.csproj", "{332C67BF-ECCC-4B98-8248-8EDEA1B5062E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{332C67BF-ECCC-4B98-8248-8EDEA1B5062E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{332C67BF-ECCC-4B98-8248-8EDEA1B5062E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{332C67BF-ECCC-4B98-8248-8EDEA1B5062E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{332C67BF-ECCC-4B98-8248-8EDEA1B5062E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A88685A0-6A42-454B-97F6-CA530E4A9B5C}
+	EndGlobalSection
+EndGlobal
